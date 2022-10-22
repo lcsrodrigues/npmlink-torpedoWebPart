@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "torpedo-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/torpedoWebpart/TorpedoWebpartWebPart.js",
+          "manifest": "./src/webparts/torpedoWebpart/TorpedoWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TorpedoWebpartWebPartStrings": "lib/webparts/torpedoWebpart/loc/{locale}.js"
+  }
+}

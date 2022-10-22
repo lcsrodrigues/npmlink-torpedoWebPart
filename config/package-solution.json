@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "torpedo-webpart-client-side-solution",
+    "id": "3aa6d71a-aa19-470d-824b-9a74c61ea31b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "torpedo-webpart description"
+      },
+      "longDescription": {
+        "default": "torpedo-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "torpedo-webpart Feature",
+        "description": "The feature that activates elements of the torpedo-webpart solution.",
+        "id": "3c67e543-cf94-4d2e-ac08-7541b6d4021a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/torpedo-webpart.sppkg"
+  }
+}

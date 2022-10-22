@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "torpedo-webpart",
+    "libraryId": "3aa6d71a-aa19-470d-824b-9a74c61ea31b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "torpedo-webpart",
+    "solutionShortDescription": "torpedo-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
